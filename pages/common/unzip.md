@@ -13,3 +13,6 @@
 - List the contents of a zip file without extracting:
 
 `unzip -l {{file}}`
+
+- List the contents of a zip file with additional data on each file, without extracting:
+`unzip -lv {{file}}`
