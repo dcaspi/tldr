@@ -15,6 +15,10 @@
 
 `wget --mirror --page-requisites --convert-links --wait=3 {{https://example.com}}`
 
+- Download the content of an URL to a file with arbitrary name:
+
+`wget {{https://example.com/some_very_long_file_name.zip}} -O short.zip`
+
 - Download the contents of an URL via authenticated FTP:
 
 `wget --ftp-user={{username}} --ftp-password={{password}} {{ftp://example.com}}`
